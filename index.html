@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+<div class="container">
+    <div class="profile-card">
+        <img src="profile1.jpg" alt="Profile Picture" class="profile-pic">
+        <h2> Satoru Gojo </h2>
+        <p>Bio : Web Developer Passionate about Coding and Designing</p>
+        <div class="toggle-buttons">
+            <button onclick="toggleContact()"> Contact Me.</button>
+            <button onclick="toggleTheme()"> Toggle Theme. </button>
+        </div>
+        <div id="contact-info" class="contact-info" style="display: none;">
+            <p><b> Email </b> : gojorocks@gmail.com </p>
+            <p><b> Phone </b> : 222444666 </p>
+
+        </div>
+    </div>
+</div>
+    <script src="./index.js"></script>
+</body>
+</html>
